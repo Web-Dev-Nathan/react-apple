@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .nav-col{
+background-color: #252525;
+  opacity: 90%; }
+
+.item-col{
+   opacity: 0.75;
+  font-size: 14px;
+}
+.item-col:hover{
+   opacity: 1;
+}
+.top-text {
+  font-size: 14px;
+}
+.top-text a {
+  text-decoration: none;
+}
+.top-text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px){
+.nav-col {
+    background-color: black;
+    opacity: 1;
+  }
+}
+ 

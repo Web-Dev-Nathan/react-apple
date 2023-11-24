@@ -1,0 +1,35 @@
+.arrow {
+  border: solid #1877b9;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.top-text {
+  font-size: 14px;
+}
+.top-text a {
+  text-decoration: none;
+}
+.top-text a:hover {
+  text-decoration: underline;
+}
+.text-wrapper h1 {
+  font-size: 55px;
+}
+.second-section {
+  background-image: url(./iphone14_large.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+}
+@media (max-width: 767px){
+.second-section {
+    background-image: url(./iphone14_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+}
+ 

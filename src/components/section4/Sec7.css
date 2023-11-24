@@ -1,0 +1,23 @@
+.arrow {
+  border: solid #1877b9;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.text-wrapper h1 {
+  font-size: 55px;
+}
+.iphone-health {
+  background-image: url(./privacy__fzwalkil8paq_large.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+}
+.macbook-pro {
+  background-image: url(./promo_mbp__ek7p477bkp6q_small.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+}
